@@ -1,8 +1,25 @@
-# 3dtest-tyson3d-myt5s-app
+<p align="center">
+  <a href="https://tysonmediagroup.org">
+    <img src="https://raw.githubusercontent.com/TYSONMediaGroup/tysonmediagroup.org.myt5s.app/main/assets/LOGOSFORGEMINI/TYSONMediaGroupBanner.png" alt="TYSON Media Group" width="700">
+  </a>
+</p>
 
-![T5S Project Background](t5s-project-background.png)
+<h1 align="center">TYSON 3D Open World</h1>
 
-Full 3D open world environment featuring an animated 3D stickman and a drivable sports car.
+<p align="center">
+  <a href="https://threejs.org"><img src="https://img.shields.io/badge/Three.js-WebGL-black?logo=threedotjs&logoColor=white" alt="Three.js"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"><img src="https://img.shields.io/badge/Audio-Web%20Audio%20DSP-blue" alt="Web Audio DSP"></a>
+  <a href="https://myt5s.app"><img src="https://img.shields.io/badge/App-myT5S.app-007ACC" alt="myT5S.app"></a>
+  <a href="https://tysonmediagroup.org"><img src="https://img.shields.io/badge/TYSON-Media%20Group-007ACC" alt="TYSON Media Group"></a>
+</p>
+
+Full 3D open world environment featuring an animated 3D stickman, interactive town, and a drivable sports car with synthesized engine audio.
+
+<p align="center">
+  <img src="t5s-project-background.png" alt="T5S Project Background" width="700">
+</p>
+
+---
 
 ## Features
 
@@ -26,6 +43,8 @@ Full 3D open world environment featuring an animated 3D stickman and a drivable 
   - On Foot: Smooth orbital third-person follow camera (mouse drag to rotate).
   - In Car: High-speed dynamic chase camera with distance scaling and speedometer.
 
+---
+
 ## Controls
 
 ### On Foot (Stickman)
@@ -38,20 +57,7 @@ Full 3D open world environment featuring an animated 3D stickman and a drivable 
 ### In Car (Driving)
 - `W` / `Up Arrow`: Accelerate
 - `S` / `Down Arrow`: Brake / Reverse
-- `A` / `D` or `Left` / `Right Arrow`: Steer
+- `A` / `Left Arrow`: Steer Left
+- `D` / `Right Arrow`: Steer Right
 - `Space`: Handbrake / Drift
 - `E`: Exit Car
-
-## Development & Deployment
-
-Run local server:
-```bash
-npm start
-# or python3 -m http.server 8000
-```
-
-Build for Cloudflare Pages:
-```bash
-npm run build
-```
-Target directory: `./dist` (configured in `wrangler.jsonc`)
